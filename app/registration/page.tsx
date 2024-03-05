@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const RegistrationPage = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="w-[50vw] h-auto mt-[2rem] p-6 bg-white border border-gray-100 rounded-md shadow-md">
+    <div className="flex justify-center items-center sm:px-6">
+      <div className="sm:w-full md:w-[50vw] h-auto sm:mt-[25%] md:mt-[2rem] p-6 bg-white border border-gray-100 rounded-md shadow-md">
         <h2 className="text-blue-700 text-2xl font-bold">Register</h2>
         <form action="" method="post">
-          <div className="flex justify-between items-center">
-            <div className="w-full flex flex-col mr-2">
+          <div className="flex sm:flex-col md:flex-row justify-between items-center">
+            <div className="w-full flex flex-col md:mr-2">
               <label htmlFor="firstname" className="text-sm mt-4 mb-2">
                 Enter Firstname
               </label>
@@ -21,7 +21,7 @@ const RegistrationPage = () => {
                 required
               />
             </div>
-            <div className="w-full flex flex-col ml-2">
+            <div className="w-full flex flex-col md:ml-2">
               <label htmlFor="lastname" className="text-sm mt-4 mb-2">
                 Enter Lastname
               </label>
@@ -35,8 +35,8 @@ const RegistrationPage = () => {
               />
             </div>
           </div>
-          <div className="flex justify-between items-center">
-            <div className="w-full flex flex-col mr-2">
+          <div className="flex sm:flex-col md:flex-row justify-between items-center">
+            <div className="w-full flex flex-col md:mr-2">
               <label htmlFor="email" className="text-sm mt-4 mb-2">
                 Enter Email
               </label>
@@ -49,7 +49,7 @@ const RegistrationPage = () => {
                 required
               />
             </div>
-            <div className="w-full flex flex-col ml-2">
+            <div className="w-full flex flex-col md:ml-2">
               <label htmlFor="username" className="text-sm mt-4 mb-2">
                 Enter Username
               </label>
@@ -63,7 +63,7 @@ const RegistrationPage = () => {
               />
             </div>
           </div>
-          <div className="w-[48.5%]">
+          <div className="sm:w-full md:w-[48.5%]">
             <div className="flex flex-col my-2">
               <label htmlFor="password" className="text-sm mt-4 mb-2">
                 Enter Password

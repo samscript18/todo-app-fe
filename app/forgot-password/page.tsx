@@ -2,8 +2,8 @@ import { CustomButton } from "@/components/ui/CustomButton";
 
 const ForgotPasswordPage = () => {
   return (
-    <div className="flex justify-center items-center">
-      <div className="w-[35vw] h-auto mt-[3.5rem] p-6 bg-white border border-gray-100 rounded-md shadow-md">
+    <div className="flex justify-center items-center sm:px-6">
+      <div className="sm:w-full md:w-[35vw] h-auto sm:mt-[50%] md:mt-[3.5rem] p-6 bg-white border border-gray-100 rounded-md shadow-md">
         <h2 className="text-blue-700 text-2xl font-bold">Reset Password</h2>
         <form action="" method="post">
           <div className="flex flex-col my-2">
